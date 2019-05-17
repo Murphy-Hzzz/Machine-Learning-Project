@@ -1,3 +1,9 @@
-#
-Code
+#This is Project code file.
+
+Main.py ： Demo(Display results on the web page )
+In AI_project File：
+app_i2t_pascal.py： This is the app for image retrival 
+app_t2i_pascal.py： This is the app for text retrival 
+backward.py:          Model Training  
+
 #

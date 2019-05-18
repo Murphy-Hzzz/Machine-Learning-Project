@@ -3,6 +3,10 @@ import os
 from AI_project import app_i2t_pascal, app_t2i_pascal
 import xml.dom.minidom
 
+import tensorflow as tf
+from tensorflow.python.client import device_lib
+#print(device_lib.list_local_devices())
+
 app = Flask(__name__)
 # bootstrap = Bootstrap(app)
 basedir = os.path.abspath(os.path.dirname(__file__))

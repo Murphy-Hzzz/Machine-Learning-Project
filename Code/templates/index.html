@@ -1,0 +1,84 @@
+﻿<!DOCTYPE HTML>
+<!--
+	Highlights by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>Cross-Modal Retrieval</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<!--[if lte IE 8]><script src="static/assets/js/ie/html5shiv.js"></script><![endif]-->
+		<link rel="stylesheet" href="static/assets/css/main.css" />
+		<!--[if lte IE 8]><link rel="stylesheet" href="static/assets/css/ie8.css" /><![endif]-->
+		<!--[if lte IE 9]><link rel="stylesheet" href="static/assets/css/ie9.css" /><![endif]-->
+	</head>
+	<body>
+
+		<!-- Header -->
+			<section id="header">
+				<header class="major">
+					<h1>Cross-Modal Retrieval</h1>
+					<p>Texts and Images Retrieval</p>
+				</header>
+				<div class="container">
+					<ul class="actions">
+						<li><a href="#footer" class="button special scrolly">Start</a></li>
+					</ul>
+				</div>
+			</section>
+		<!-- Footer -->
+			<section id="footer">
+				<div class="container">
+					<header class="major">
+						<h2>Upload files</h2>
+					</header>
+					<form method="post" action="/text_result">
+						<div class="row uniform">
+							<div class="12u$"><textarea name="message" id="message" placeholder="Message" rows="4"></textarea></div>
+							<div class="12u$">
+								<ul class="actions">
+									<li><input type="submit" value="Send Texts" class="special" /></li>
+								</ul>
+							</div>
+						</div>
+					</form>
+                     <form method="post" action="photo_result" enctype="multipart/form-data">
+                     <input type="file" size="30" name="photo" class="special" />
+                        <br>
+                        <input type="text" class="txt_input" name="name" style="margin-top:15px;"/>
+                         <br>
+                        <input type="submit" value="Send Images"  class="special" />
+                    </form>
+				</div>
+				<footer>
+					<ul class="icons">
+						<li><a href="#" class="icon alt fa-twitter"><span class="label">Twitter</span></a></li>
+						<li><a href="#" class="icon alt fa-facebook"><span class="label">Facebook</span></a></li>
+						<li><a href="#" class="icon alt fa-instagram"><span class="label">Instagram</span></a></li>
+						<li><a href="#" class="icon alt fa-dribbble"><span class="label">Dribbble</span></a></li>
+						<li><a href="#" class="icon alt fa-envelope"><span class="label">Email</span></a></li>
+					</ul>
+					<ul class="copyright">
+						<li>Design:zbb</li>
+					</ul>
+				</footer>
+			</section>
+
+
+
+
+
+
+		<!-- Scripts -->
+			<script src="static/assets/js/jquery.min.js"></script>
+			<script src="static/assets/js/jquery.scrollex.min.js"></script>
+			<script src="static/assets/js/jquery.scrolly.min.js"></script>
+			<script src="static/assets/js/skel.min.js"></script>
+			<script src="static/assets/js/util.js"></script>
+			<!--[if lte IE 8]><script src="static/assets/js/ie/respond.min.js"></script><![endif]-->
+			<script src="static/assets/js/main.js"></script>
+
+	</body>
+</html>
